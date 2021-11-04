@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong style="font-size: 30px;">معلومة</strong>
+    <p style="font-size:21px;margin-top: 16px;margin-bottom: 7px;">لتييسير حفظ القرآن تترك الآيات تُعاد خلال النوم</p>
+    <div class="row">
+      <img style="max-width: 40%;" src="..\..\assets\icon\quran.jpg" alt="">
+      <div class="col-md-6"><ion-button  style="width: 30vh;height: 12vh;font-size: 28px;" color="success" [routerLink]="['/quran']">قرآن</ion-button></div>
+      <img style="max-width: 40%;" src="..\..\assets\icon\téléchargement.png" alt="">
+      <div class="col-md-6"><ion-button style="width: 30vh;height: 12vh;font-size: 28px;" color="success" [routerLink]="['/sonna']"> أحاديث نبويّة</ion-button></div>
+    </div>
+  </div>
+</ion-content>
